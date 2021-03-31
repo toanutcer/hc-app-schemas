@@ -30,8 +30,9 @@ Tạo một nhóm mới gồm 3 thiết bị
 }
 ```
 ### Mẫu phản hồi
-```json
+
 Thành công
+```json
 {
      "CMD": "GROUP",
      "TYPE": "DEVxICE_RESPONSE",
@@ -73,8 +74,9 @@ Thành công
 }
 ```
 ### Mẫu phản hồi
-```json
+
 Thành công
+```json
 {
      "CMD": "GROUP",
      "TYPE": "DEVxICE_RESPONSE",

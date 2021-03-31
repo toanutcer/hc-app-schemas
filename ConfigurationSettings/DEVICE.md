@@ -10,9 +10,8 @@
 }
 ```
 ### Mẫu phản hồi
-```json
 Bản tin phản hồi khi 1 thiết bị được thêm vào mạng
-
+```json
 {
    "CMD": "TYPE_DEVICE",
    "DATA": 
@@ -42,6 +41,10 @@ Dừng quá trình đưa thiết bị vào mạng
      "CMD":"STOP"
 }
 ```
+
+
+
+
 ## RESET_NODE
 Xóa 1 hoặc nhiều thiết bị trong mạng
 ### Gửi đi
@@ -66,8 +69,9 @@ Xóa 1 hoặc nhiều thiết bị trong mạng
 }
 ```
 ### Mẫu phản hồi
-```json
 Từng thiết bị sẽ phản hồi về sau khi xóa khỏi mạng BLE
+
+```json
 
 {
      "CMD":"RESET_NODE",

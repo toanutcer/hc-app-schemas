@@ -2,6 +2,8 @@
 # RULE
 ## Bản tin tạo rule
 #### Gửi đi
+Thêm thiết bị vào nhóm
+ "TYPE": "ADD_DEVICE"
 ```json
 {
    "CMD":"EVENT_TRIGGER",
